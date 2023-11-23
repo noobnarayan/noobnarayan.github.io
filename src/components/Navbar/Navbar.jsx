@@ -31,7 +31,7 @@ function Navbar() {
 
   const [open, setOpen] = useState(false);
   return (
-    <div className="shadow w-full fixed top-0 left-0 font-Poppins">
+    <div className="shadow-sm w-full fixed top-0 left-0 font-Poppins">
       <div className="md:flex items-center justify-between bg-white py-2.5 md:px-10 px-7">
         <div className=" font-semibold text-xl cursor-pointer flex items-center text-gray-800">
           <span className="flex items-center font-Poppins">./narayan</span>
@@ -42,7 +42,7 @@ function Navbar() {
         >
           <i
             className={open ? "fa-solid fa-x" : "fa-solid fa-bars"}
-            style={{ color: "#3fb337" }}
+            style={{ color: "#EA580C" }}
           ></i>
         </div>
         <ul
@@ -54,7 +54,7 @@ function Navbar() {
             return (
               <li
                 key={index}
-                className="md:ml-8 text-base font-semibold md:my-0 my-7"
+                className="md:ml-8 text-base font-medium md:my-0 my-7"
               >
                 <a
                   to={link.path}
