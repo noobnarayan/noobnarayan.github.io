@@ -55,7 +55,7 @@ function Navbar() {
               return (
                 <li
                   key={index}
-                  className="md:ml-8 text-base font-medium md:my-0 my-7"
+                  className={`md:ml-8 text-base font-medium md:my-0 my-7 ${link.className}`}
                 >
                   <a
                     to={link.path}
@@ -66,7 +66,6 @@ function Navbar() {
                 </li>
               );
             })}
-
             <div className="md:flex block">
               <button className="nav-link resume border border-gray-300 text-black font-bold py-1.5 px-5 rounded-md lg:ml-32 md:ml-7 md:shadow xl:ml-12 hover:bg-orange-300 hover:border-orange-500 duration-500 mr-5 md:hover:scale-105">
                 Resume
