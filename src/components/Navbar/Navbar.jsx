@@ -31,7 +31,10 @@ function Navbar() {
 
   const [open, setOpen] = useState(false);
   return (
-    <div className="shadow-sm w-full fixed top-0 left-0 font-Poppins">
+    <div
+      id="nav-menu"
+      className="shadow-sm w-full fixed top-0 left-0 font-Poppins"
+    >
       <div className="md:flex items-center justify-between bg-white py-2.5 md:px-10 px-7">
         <div className=" font-semibold text-xl cursor-pointer flex items-center text-gray-800">
           <span className="flex items-center font-Poppins">./narayan</span>
