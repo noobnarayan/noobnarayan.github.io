@@ -51,7 +51,7 @@ function Navbar() {
           >
             <i
               className={open ? "fa-solid fa-x" : "fa-solid fa-bars"}
-              style={{ color: "#FFBD59" }}
+              style={{ color: "#000000" }}
             ></i>
           </div>
           <ul

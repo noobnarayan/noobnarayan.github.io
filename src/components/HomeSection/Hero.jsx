@@ -1,12 +1,14 @@
 import React from "react";
 import profilePicture from "../../assets/media/images/Narayan_Das.png";
+import heroBg from "../../assets/media/images/hero-bg.jpg";
+
 function Hero() {
   return (
-    <div>
+    <div id="home">
       <div className="flex flex-col md:flex-row gap-5 py-3">
-        <div className="md:w-[65%] bg-transparent overflow-hidden rounded-3xl relative group h-[36rem] md:h-[30rem] order-2 md:order-1 ">
+        <div className="md:w-[65%] bg-transparent overflow-hidden rounded-3xl relative group h-[33rem] md:h-[30rem] order-2 md:order-1 animate-fadeIn   ">
           <img
-            src="https://www.aboghanbari.com/static/defaultcard-hover-5eef4f0957217910c705b56db7539e0f.jpg"
+            src={heroBg}
             className="transition duration-700 ease-in-out group-hover:rotate-[25deg] group-hover:scale-[1.6] rounded-3xl object-cover object-center w-full h-full"
           />
           <div className="absolute inset-0 flex p-10 md:p-10 z-10 flex-col">
@@ -19,8 +21,10 @@ function Hero() {
               </div>
             </div>
             <div>
-              <h1 className="font-medium text-4xl">Hello, I’m Narayan,</h1>
-              <h2 className="font-medium text-3xl py-3">
+              <h1 className="font-semibold md:font-medium text-4xl">
+                Hello, I’m Narayan,
+              </h1>
+              <h2 className="font-medium text-2xl md:text-3xl py-3">
                 a passionate Full-Stack Developer
               </h2>
 
@@ -32,7 +36,7 @@ function Hero() {
 
             <div className="md:w-4/6 flex flex-col md:flex-row items-center justify-center md:justify-start md:pt-20 gap-5">
               <div>
-                <button className="bg-[#1D1D1D] py-3 px-20 md:px-8 rounded-3xl text-white font-medium">
+                <button className="bg-[#1D1D1D] py-3 px-20 md:px-12 rounded-3xl text-white font-medium">
                   Resume
                 </button>
               </div>
