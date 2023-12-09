@@ -5,9 +5,9 @@ function TechStack({ bg, color, skills }) {
   const textColorClass = color === "light" ? "text-white" : "text-gray-800";
 
   return (
-    <div className="absolute top-[5.5rem] left-9 right-0 p-3 flex flex-wrap justify-center z-20 project-tech-stack">
+    <div className="absolute top-[5.5rem] md:left-9 right-0 p-3 flex flex-wrap justify-center z-20 project-tech-stack">
       <div
-        className={`flex gap-3 ${textColorClass} font-semibold justify-center items-center text-xs bounce-hover`}
+        className={`flex gap-3 ${textColorClass} font-semibold justify-center items-center text-xs bounce-hover flex-wrap`}
       >
         {skills.map((skill) => (
           <div

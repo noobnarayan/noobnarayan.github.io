@@ -8,12 +8,12 @@ function App() {
   return (
     <div className="font-Poppins">
       <Navbar />
-      <div className="md:px-28 px-7">
-        <Hero /> {/* Assign id to Hero section */}
-        <AboutSection /> {/* Assign id to AboutSection */}
-        <Skills /> {/* Assign id to Skills section */}
-        <Projects /> {/* Assign id to Projects section */}
-        <Contact /> {/* Assign id to Contact section */}
+      <div className="md:px-28 px-5">
+        <Hero />
+        <AboutSection />
+        <Skills />
+        <Projects />
+        <Contact />
       </div>
     </div>
   );

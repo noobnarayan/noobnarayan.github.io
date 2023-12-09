@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import aboutBg from "../../assets/media/images/aboutBg.jpeg";
 function debounce(func, wait) {
   let timeout;
   return function executedFunction(...args) {
@@ -43,17 +44,17 @@ function AboutSection() {
           : "translate-y-10 opacity-0 invisible"
       }`}
       style={{
-        backgroundImage: `url(https://i.imgur.com/WwiS7Zz.jpeg)`,
+        backgroundImage: `url(${aboutBg})`,
       }}
       id="about"
     >
-      <div className="flex justify-center py-5 px-14">
-        <div className="w-[30%] flex items-center">
-          <h2 className="text-5xl font-semibold text-white hover:border-b-4  transition-all duration-200 ease-in transform">
+      <div className="flex flex-col md:flex-row justify-center py-2 md:py-5 px-6 md:px-14 gap-5">
+        <div className="md:w-[30%] flex items-center justify-center">
+          <h2 className="text-5xl font-semibold text-white hover:border-b-4  transition-all duration-200 ease-in transform ">
             About Me
           </h2>
         </div>
-        <div className="w-[70%] flex flex-col items-center gap-4 text-white">
+        <div className="md:w-[70%] flex flex-col items-center gap-4 text-white justify-center">
           <p>
             I am a dedicated Full Stack Web Developer specializing in the MERN
             stack. I have completed a comprehensive Full Stack Web Development

@@ -1,9 +1,6 @@
-// Skills.js
 import React from "react";
 import SkillsCard from "./SkillsCard";
-import background from "../../assets/media/images/bg.jpg";
-// Array of objects representing skills
-// Development skills
+
 const developmentSkills = [
   { name: "HTML", icon: "skill-icons:html" },
   { name: "CSS", icon: "skill-icons:css" },
@@ -38,7 +35,7 @@ const otherSkills = [
 function Skills() {
   return (
     <div
-      className="rounded-3xl bg-cover bg-center px-10 py-12 justify-center items-center mb-10"
+      className="rounded-3xl bg-cover bg-center px-3 md:px-10 py-8 md:py-12 justify-center items-center mb-10"
       style={{
         backgroundImage: `url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9a5e4c18784705.562cf3eff3324.jpg)`,
       }}
@@ -48,7 +45,7 @@ function Skills() {
         Devlopment Skills
       </h2>
 
-      <div className="grid grid-cols-4 gap-5 ">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-5 ">
         {developmentSkills.map((skill) => (
           <SkillsCard key={skill.name} name={skill.name} icon={skill.icon} />
         ))}
@@ -56,7 +53,7 @@ function Skills() {
       <h2 className="text-white text-3xl font-semibold text-center my-5">
         Other Skills
       </h2>
-      <div className="grid grid-cols-4 gap-5 ">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
         {otherSkills.map((skill) => (
           <SkillsCard key={skill.name} name={skill.name} icon={skill.icon} />
         ))}

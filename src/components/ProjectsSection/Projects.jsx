@@ -14,8 +14,8 @@ function Projects() {
       id="projects"
     >
       <div className="project-card">
-        <div className="h-[27rem] flex justify-between rounded-2xl p-5 relative bg-[#493751] overflow-hidden shadow ">
-          <div className="absolute inset-0 z-30 left-7 top-[8rem] w-full transform transition duration-500 hover:scale-105">
+        <div className="h-[23.5rem] md:h-[27rem] flex justify-between rounded-2xl p-5 relative bg-[#493751] overflow-hidden shadow ">
+          <div className="absolute inset-0 z-20 left-5 md:left-7 top-[11rem] md:top-[8rem] w-full transform transition duration-500 hover:scale-105">
             <img src={woodFans} alt="Wood Fans" />
           </div>
           <TechStack
@@ -47,8 +47,8 @@ function Projects() {
       </div>
 
       <div className="project-card">
-        <div className="h-[27rem] flex justify-between rounded-2xl p-5 relative bg-[#E3E4F1] overflow-hidden shadow ">
-          <div className="absolute inset-0 z-30 left-7 top-[8rem] w-full transform transition duration-500 hover:scale-105">
+        <div className="h-[23.5rem] md:h-[27rem] flex justify-between rounded-2xl p-5 relative bg-[#E3E4F1] overflow-hidden shadow ">
+          <div className="absolute inset-0 z-20 left-5 md:left-7 top-[11rem] md:top-[8rem] w-full transform transition duration-500 hover:scale-105">
             <img src={JobHunter} alt="Wood Fans" />
           </div>
 
@@ -82,8 +82,8 @@ function Projects() {
       </div>
 
       <div className="project-card">
-        <div className="h-[27rem] flex justify-between rounded-2xl p-5 relative bg-[#303443] overflow-hidden shadow ">
-          <div className="absolute inset-0 z-30 top-[7rem] w-full transform transition duration-500 hover:scale-105">
+        <div className="h-[23.5rem] md:h-[27rem] flex justify-between rounded-2xl p-5 relative bg-[#303443] overflow-hidden shadow ">
+          <div className="absolute inset-0 z-20  top-[10.5rem] md:top-[7rem] w-full transform transition duration-500 hover:scale-105">
             <img src={greenParadise} />
           </div>
 
@@ -116,8 +116,8 @@ function Projects() {
       </div>
 
       <div className="project-card">
-        <div className="h-[27rem] flex justify-between rounded-2xl p-5 relative bg-[#6B5CE5] overflow-hidden shadow ">
-          <div className="absolute inset-0 z-30 left-7 top-[8.5rem] w-full transform transition duration-500 hover:scale-105">
+        <div className="h-[22rem] md:h-[27rem] flex justify-between rounded-2xl p-5 relative bg-[#6B5CE5] overflow-hidden shadow ">
+          <div className="absolute inset-0 z-20 left-5 md:left-7 top-[9.5rem] md:top-[8rem] w-full transform transition duration-500 hover:scale-105">
             <img src={SkinStore} alt="Wood Fans" />
           </div>
           <TechStack

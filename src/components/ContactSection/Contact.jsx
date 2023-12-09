@@ -16,10 +16,12 @@ function Contact() {
         <p className="text-lg">
           Feel free to reach out for any work or just a friendly hello
         </p>
-        <p className="text-base md:text-lg" id="contact-email">
-          workmail.narayan@gmail.com
+        <p className="text-base md:text-lg font-medium" id="contact-email">
+          Email: workmail.narayan@gmail.com
         </p>
-        <p id="contact-phone">Phone: +91 9144145904</p>
+        <p id="contact-phone" className="font-medium">
+          Phone: +91 9144145904
+        </p>
       </div>
       <div className="py-5 md:py-0">
         <ButtonAndSocial />
