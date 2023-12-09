@@ -37,7 +37,7 @@ function AboutSection() {
   return (
     <div
       ref={aboutRef}
-      className={`bg-gray-100 rounded-3xl transition-all duration-700 ease-in-out transform py-16 mb-10 ${
+      className={`about section bg-gray-100 rounded-3xl transition-all duration-700 ease-in-out transform py-16 mb-10 ${
         isVisible
           ? "translate-y-0 opacity-100"
           : "translate-y-10 opacity-0 invisible"
@@ -53,8 +53,11 @@ function AboutSection() {
             About Me
           </h2>
         </div>
-        <div className="w-[70%] flex flex-col items-center gap-4 text-white">
-          <p id="user-detail-intro">
+        <div
+          className="w-[70%] flex flex-col items-center gap-4 text-white"
+          id="user-detail-intro"
+        >
+          <p>
             I am a dedicated Full Stack Web Developer specializing in the MERN
             stack. I have completed a comprehensive Full Stack Web Development
             Course at Masai, which equipped me with a robust understanding of
