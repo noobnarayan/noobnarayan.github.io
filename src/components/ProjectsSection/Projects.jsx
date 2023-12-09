@@ -1,7 +1,7 @@
 import React from "react";
 import JobHunter from "../../assets/media/images/JobHunter.png";
 import woodFans from "../../assets/media/images/wood fans.png";
-import greenParadise from "../../assets/media/images/green-paradise.png";
+import greenParadise from "../../assets/media/images/Green-Paradise.png";
 import SkinStore from "../../assets/media/images/SkinStore.png";
 import IconButton from "../Common/IconButton";
 import TechStack from "./TechStack";
