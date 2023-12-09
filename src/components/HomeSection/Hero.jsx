@@ -1,11 +1,12 @@
 import React from "react";
 import profilePicture from "../../assets/media/images/Narayan_Das.png";
 import heroBg from "../../assets/media/images/hero-bg.jpg";
+import ButtonAndSocial from "../Common/ButtonAndSocial";
 
 function Hero() {
   return (
     <div id="home">
-      <div className="flex flex-col md:flex-row gap-5 py-3">
+      <div className="flex flex-col md:flex-row gap-5 py-3 pb-10 ">
         <div className="md:w-[65%] bg-transparent overflow-hidden rounded-3xl relative group h-[33rem] md:h-[30rem] order-2 md:order-1 animate-fadeIn   ">
           <img
             src={heroBg}
@@ -21,7 +22,10 @@ function Hero() {
               </div>
             </div>
             <div>
-              <h1 className="font-semibold md:font-medium text-4xl">
+              <h1
+                className="font-semibold md:font-medium text-4xl"
+                id="user-detail-name"
+              >
                 Hello, I’m Narayan,
               </h1>
               <h2 className="font-medium text-2xl md:text-3xl py-3">
@@ -34,46 +38,14 @@ function Hero() {
               </p>
             </div>
 
-            <div className="md:w-4/6 flex flex-col md:flex-row items-center justify-center md:justify-start md:pt-20 gap-5">
-              <div>
-                <button className="bg-[#1D1D1D] py-3 px-20 md:px-12 rounded-3xl text-white font-medium">
-                  Resume
-                </button>
-              </div>
-              <div className="flex justify-between gap-3">
-                <a
-                  href="https://www.linkedin.com/in/noobnarayan"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-white hover:bg-[#0A66C2] hover:cursor-pointer hover:text-white p-4 rounded-full inline-flex items-center justify-center"
-                >
-                  <i className="fa-brands fa-linkedin text-[20px]"></i>
-                </a>
-                <a
-                  href="https://github.com/noobnarayan/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-white hover:bg-[#080808] hover:cursor-pointer hover:text-white p-4 rounded-full inline-flex items-center justify-center"
-                >
-                  <i className="fa-brands fa-github text-[20px]"></i>
-                </a>
-                <a
-                  href="https://twitter.com/inoobnarayan"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-white hover:bg-[#1DA1F2] hover:cursor-pointer hover:text-white p-4 rounded-full inline-flex items-center justify-center"
-                >
-                  <i className="fa-brands fa-twitter text-[20px]"></i>
-                </a>
-              </div>
-            </div>
+            <ButtonAndSocial />
           </div>
         </div>
 
         <div className="md:w-[35%] rounded-3xl overflow-hidden relative order-1 md:order-2">
           <img
             src={profilePicture}
-            className="rounded-2xl object-cover object-center w-full h-full"
+            className="rounded-2xl object-cover object-center w-full h-full home-img"
           />
         </div>
       </div>

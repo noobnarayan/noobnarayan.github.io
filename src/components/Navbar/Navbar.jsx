@@ -1,30 +1,31 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+
 function Navbar() {
   const navLinks = [
     {
       title: "Home",
-      path: "/",
+      path: "/#home",
       className: "nav-link home",
     },
     {
       title: "About",
-      path: "/",
-      className: "about section",
+      path: "/#about",
+      className: "nav-link about",
     },
     {
       title: "Skills",
-      path: "/",
+      path: "/#skills",
       className: "nav-link skills",
     },
     {
       title: "Projects",
-      path: "/",
+      path: "/#projects",
       className: "nav-link projects",
     },
     {
       title: "Contact",
-      path: "/",
+      path: "/#contact",
       className: "nav-link contact",
     },
   ];
@@ -63,11 +64,12 @@ function Navbar() {
               return (
                 <li
                   key={index}
-                  className={`hover:cursor-pointer md:ml-8 text-base font-medium md:my-0 my-7 ${link.className} `}
+                  className={`md:ml-8 text-base font-medium md:my-0 my-7 ${link.className}`}
                 >
                   <Link
-                    to={link.path}
-                    className="text-gray-500 hover:text-yellow-600 hover:pb-4 md:hover:border-b-2 hover:border-[#FFBD59] "
+                    to={link.path} // Use HashLink to navigate
+                    smooth // Enable smooth scrolling
+                    className="text-gray-500 hover:text-yellow-600 hover:pb-4 md:hover:border-b-2 hover:border-[#FFBD59]"
                   >
                     {link.title}
                   </Link>
@@ -75,7 +77,10 @@ function Navbar() {
               );
             })}
             <div className="md:flex block">
-              <button className="nav-link resume border border-gray-300 text-black font-bold py-1.5 px-5 rounded-md lg:ml-32 md:ml-7 md:shadow xl:ml-12 hover:bg-[#F3E6C6] hover:border-orange-500 duration-500  md:hover:scale-105">
+              <button
+                className="nav-link resume border border-gray-300 text-black font-bold py-1.5 px-5 rounded-md lg:ml-32 md:ml-7 md:shadow xl:ml-12 hover:bg-[#F3E6C6] hover:border-orange-500 duration-500  md:hover:scale-105"
+                id="resume-button-1"
+              >
                 Resume
               </button>
             </div>
