@@ -53,10 +53,7 @@ function AboutSection() {
             About Me
           </h2>
         </div>
-        <div
-          className="w-[70%] flex flex-col items-center gap-4 text-white"
-          id="user-detail-intro"
-        >
+        <div className="w-[70%] flex flex-col items-center gap-4 text-white">
           <p>
             I am a dedicated Full Stack Web Developer specializing in the MERN
             stack. I have completed a comprehensive Full Stack Web Development
@@ -67,7 +64,7 @@ function AboutSection() {
             Additionally, I leverage my 2+ years of experience as a freelance
             WordPress developer and blogger to further enhance my skillset.
           </p>
-          <p>
+          <p id="user-detail-intro">
             Combining my MERN expertise (MongoDB, Express.js, React, Node.js)
             with over 2 years of freelance WordPress development and blogging
             experience, I create dynamic, responsive web applications. My design
