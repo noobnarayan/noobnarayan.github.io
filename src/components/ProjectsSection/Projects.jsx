@@ -28,7 +28,7 @@ function Projects() {
               Wood Fans
             </h3>
             <p className="text-gray-300 text-sm project-description">
-              Ecommerce selling furnitures
+              An online platform for buying Furnitures.
             </p>
           </div>
           <div className="flex gap-3">
@@ -63,7 +63,7 @@ function Projects() {
               Wood Fans
             </h3>
             <p className="text-gray-500 text-sm project-description">
-              Ecommerce selling furnitures
+              A job portal connecting candidates with employers.
             </p>
           </div>
           <div className="flex gap-3">
@@ -94,10 +94,10 @@ function Projects() {
           />
           <div className="z-10">
             <h3 className="text-white font-medium text-xl project-title">
-              Wood Fans
+              Green Paradise
             </h3>
             <p className="text-gray-300 text-sm project-description">
-              Ecommerce selling furnitures
+              Ecommerce for selling plants.
             </p>
           </div>
           <div className="flex gap-3">
@@ -127,10 +127,10 @@ function Projects() {
           />
           <div className="z-10">
             <h3 className="text-white font-medium text-xl project-title">
-              Wood Fans
+              Skin Store
             </h3>
             <p className="text-gray-300 text-sm project-description">
-              Ecommerce selling furnitures
+              Get beauty products at your doorstep.
             </p>
           </div>
           <div className="flex gap-3">

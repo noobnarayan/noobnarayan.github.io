@@ -12,7 +12,7 @@ function TechStack({ bg, color, skills }) {
         {skills.map((skill) => (
           <div
             key={skill}
-            className={`py-px rounded-md ${bgColorClass} bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 flex justify-center items-center px-3 bounce-hover `}
+            className={`py-px rounded-md ${bgColorClass} bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 flex justify-center items-center px-3 bounce-hover hover:cursor-pointer`}
           >
             {skill}
           </div>
