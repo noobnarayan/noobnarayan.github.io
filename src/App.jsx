@@ -1,3 +1,4 @@
+import GitHubSection from "./GithubSection/GitHubSection";
 import AboutSection from "./components/AboutSection/AboutSection";
 import Contact from "./components/ContactSection/Contact";
 import Hero from "./components/HomeSection/Hero";
@@ -13,6 +14,7 @@ function App() {
         <AboutSection />
         <Skills />
         <Projects />
+        <GitHubSection />
         <Contact />
       </div>
     </div>
