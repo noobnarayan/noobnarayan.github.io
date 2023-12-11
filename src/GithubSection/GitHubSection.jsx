@@ -7,11 +7,12 @@ function GitHubSection() {
       <h2 className="text-center font-semibold text-4xl py-8">GitHub Stats</h2>
       <div>
         <div className="flex justify-center items-center">
-          <div className="w-1/2 p-6" id="github-streak-stats">
+          <div className="w-1/2 p-6">
             <a href="https://git.io/streak-stats">
               <img
                 src="https://github-readme-streak-stats.herokuapp.com?user=noobnarayan"
                 alt="GitHub Streak"
+                id="github-streak-stats"
               />
             </a>
           </div>
