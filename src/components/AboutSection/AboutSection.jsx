@@ -27,7 +27,7 @@ function AboutSection() {
       } else {
         setIsVisible(false);
       }
-    }, 100);
+    }, 20);
     window.addEventListener("scroll", handleScroll);
 
     return () => {

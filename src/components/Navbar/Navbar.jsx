@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
-
+import { handleResumeDownload } from "../Common/downloadResume";
 function Navbar() {
   const navLinks = [
     {
@@ -29,14 +29,6 @@ function Navbar() {
       className: "nav-link contact",
     },
   ];
-
-  const handleResumeDownload = () => {
-    const link = document.createElement("a");
-    link.download = "Narayan_Das.pdf";
-    link.href = resume;
-    link.click();
-    window.open("#", "_blank");
-  };
 
   const [open, setOpen] = useState(false);
   return (
@@ -80,6 +72,7 @@ function Navbar() {
               <button
                 className="nav-link resume border border-gray-300 text-black font-bold py-1.5 px-5 rounded-md lg:ml-32 md:ml-7 md:shadow xl:ml-12 hover:bg-[#F3E6C6] hover:border-orange-500 duration-500  md:hover:scale-105"
                 id="resume-button-1"
+                onClick={handleResumeDownload}
               >
                 Resume
               </button>

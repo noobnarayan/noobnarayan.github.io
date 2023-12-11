@@ -1,4 +1,5 @@
 import React from "react";
+import { handleResumeDownload } from "./downloadResume";
 
 function ButtonAndSocial() {
   return (
@@ -8,6 +9,7 @@ function ButtonAndSocial() {
           <button
             className="bg-[#1D1D1D] py-3 px-20 md:px-12 rounded-3xl text-white font-medium"
             id="resume-button-2"
+            onClick={handleResumeDownload}
           >
             Resume
           </button>

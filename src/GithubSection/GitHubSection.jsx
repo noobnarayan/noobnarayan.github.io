@@ -4,19 +4,19 @@ import GitHubCalendar from "react-github-calendar";
 function GitHubSection() {
   return (
     <div>
-      <h2 className="text-center font-semibold text-4xl py-8">GitHub Stats</h2>
-      <div>
-        <div className="flex justify-center items-center">
-          <div className="w-1/2 p-6">
-            <a href="https://git.io/streak-stats">
-              <img
-                src="https://github-readme-streak-stats.herokuapp.com?user=noobnarayan"
-                alt="GitHub Streak"
-                id="github-streak-stats"
-              />
-            </a>
+      <h2 className="text-center font-semibold text-4xl pt-10 text-[#191D26]">
+        GitHub Stats
+      </h2>
+      <div className="pt-5 py-10">
+        <div className="flex flex-col md:flex-row justify-center items-center">
+          <div className="md:w-1/2 p-6">
+            <img
+              src="https://github-readme-streak-stats.herokuapp.com?user=noobnarayan"
+              alt="GitHub Streak"
+              id="github-streak-stats"
+            />
           </div>
-          <div className="w-1/2   p-6">
+          <div className="md:w-1/2 w-11/12  md:p-6">
             <GitHubCalendar
               username="noobnarayan"
               blockSize={15}
