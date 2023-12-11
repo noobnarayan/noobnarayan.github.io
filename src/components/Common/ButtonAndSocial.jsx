@@ -1,14 +1,14 @@
 import React from "react";
 import { handleResumeDownload } from "./downloadResume";
 
-function ButtonAndSocial() {
+function ButtonAndSocial({ id }) {
   return (
     <div>
       <div className="md:w-4/6 flex flex-col md:flex-row items-center justify-center md:justify-start md:pt-20 gap-5">
         <div>
           <button
             className="bg-[#1D1D1D] py-3 px-20 md:px-12 rounded-3xl text-white font-medium"
-            id="resume-button-2"
+            id={id}
             onClick={handleResumeDownload}
           >
             Resume

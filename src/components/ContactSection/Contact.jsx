@@ -33,7 +33,7 @@ function Contact() {
         </p>
       </div>
       <div className="py-5 md:py-0">
-        <ButtonAndSocial />
+        <ButtonAndSocial id={"footer-resume-button"} />
       </div>
     </div>
   );

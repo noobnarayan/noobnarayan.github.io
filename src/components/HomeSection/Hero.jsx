@@ -38,7 +38,7 @@ function Hero() {
               </p>
             </div>
 
-            <ButtonAndSocial />
+            <ButtonAndSocial id={"resume-button-2"} />
           </div>
         </div>
 
