@@ -42,7 +42,7 @@ function Skills() {
       id="skills"
     >
       <h2 className="text-white text-3xl font-semibold text-center mb-5">
-        Devlopment Skills
+        Development Skills
       </h2>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-5 ">
