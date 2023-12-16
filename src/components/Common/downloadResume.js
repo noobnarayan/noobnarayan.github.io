@@ -1,4 +1,4 @@
-import resume from "../../assets/Files/Narayan_Das_Resume.pdf";
+import resume from "../../assets/Files/Narayan-Das-Resume.pdf";
 
 export const handleResumeDownload = () => {
     const link = document.createElement("a");
