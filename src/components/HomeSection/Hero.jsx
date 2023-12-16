@@ -6,7 +6,7 @@ import ButtonAndSocial from "../Common/ButtonAndSocial";
 function Hero() {
   return (
     <div id="home">
-      <div className="flex flex-col md:flex-row gap-5 py-3 pb-10 ">
+      <div className="flex flex-col md:flex-row gap-5 py-3 pb-10 mt-16">
         <div className="md:w-[65%] bg-transparent overflow-hidden rounded-3xl relative group h-[33rem] md:h-[30rem] order-2 md:order-1 animate-fadeIn   ">
           <img
             src={heroBg}
