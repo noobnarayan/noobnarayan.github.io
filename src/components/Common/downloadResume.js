@@ -5,5 +5,5 @@ export const handleResumeDownload = () => {
     link.download = "Narayan-Das-Resume.pdf";
     link.href = resume;
     link.click();
-    window.open("#", "_blank");
+    window.open("https://drive.google.com/file/d/1MDhdpGOMx_gb1R4b513W6X5QXtQJ5D8o/view?usp=sharing", "_blank");
 };
