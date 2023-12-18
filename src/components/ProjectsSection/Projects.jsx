@@ -34,7 +34,7 @@ function Projects() {
               <h3 className="text-white font-medium text-xl project-title">
                 Wood Fans
               </h3>
-              <p className="text-gray-300 text-sm project-description">
+              <p className="text-gray-300 text-sm project-description mr-5 ">
                 An online platform for buying Furnitures.
               </p>
             </div>
@@ -43,11 +43,13 @@ function Projects() {
                 iconClass="fa-brands fa-github text-gray-500"
                 onClick={handleGitHubClick}
                 testClass={"project-github-link"}
+                link={"https://github.com/noobnarayan/wood-fans"}
               />
               <IconButton
                 iconClass="fa-solid fa-arrow-up-right-from-square text-gray-500"
                 onClick={handleLiveClick}
                 testClass={"project-deployed-link"}
+                link={"https://obscene-clam-8417.vercel.app/"}
               />
             </div>
           </div>
@@ -73,7 +75,7 @@ function Projects() {
 
             <div className="z-10">
               <h3 className="text-gray-700 font-medium text-xl project-title">
-                Wood Fans
+                Job Hunter
               </h3>
               <p className="text-gray-500 text-sm project-description">
                 A job portal connecting candidates with employers.
@@ -84,11 +86,13 @@ function Projects() {
                 iconClass="fa-brands fa-github text-gray-500"
                 onClick={handleGitHubClick}
                 testClass={"project-github-link"}
+                link={"https://github.com/noobnarayan/job-hunter"}
               />
               <IconButton
                 iconClass="fa-solid fa-arrow-up-right-from-square text-gray-500"
                 onClick={handleLiveClick}
                 testClass={"project-deployed-link"}
+                link={"https://jobhunter.noobnarayan.in/"}
               />
             </div>
           </div>
@@ -109,8 +113,9 @@ function Projects() {
               <h3 className="text-white font-medium text-xl project-title">
                 Green Paradise
               </h3>
-              <p className="text-gray-300 text-sm project-description">
-                Ecommerce for selling plants.
+              <p className="text-gray-300 text-sm project-description mr-5 ">
+                A digital marketplace for purchasing robust plants on the
+                internet.
               </p>
             </div>
             <div className="flex gap-3">
@@ -118,11 +123,13 @@ function Projects() {
                 iconClass="fa-brands fa-github text-gray-500"
                 onClick={handleGitHubClick}
                 testClass={"project-github-link"}
+                link={"https://github.com/noobnarayan/green-paradise"}
               />
               <IconButton
                 iconClass="fa-solid fa-arrow-up-right-from-square text-gray-500"
                 onClick={handleLiveClick}
                 testClass={"project-deployed-link"}
+                link={"https://green-paradise.noobnarayan.in/"}
               />
             </div>
           </div>
@@ -142,8 +149,9 @@ function Projects() {
               <h3 className="text-white font-medium text-xl project-title">
                 Skin Store
               </h3>
-              <p className="text-gray-300 text-sm project-description">
-                Get beauty products at your doorstep.
+              <p className="text-gray-300 text-sm project-description mr-5 ">
+                An E-commerce platform for premium beauty products for both Men
+                and Women.
               </p>
             </div>
             <div className="flex gap-3">
@@ -151,11 +159,13 @@ function Projects() {
                 iconClass="fa-brands fa-github text-gray-500"
                 onClick={handleGitHubClick}
                 testClass={"project-github-link"}
+                link={"https://github.com/noobnarayan/skin-store-clone"}
               />
               <IconButton
                 iconClass="fa-solid fa-arrow-up-right-from-square text-gray-500"
                 onClick={handleLiveClick}
                 testClass={"project-deployed-link"}
+                link={"https://high-fruit.netlify.app/"}
               />
             </div>
           </div>
