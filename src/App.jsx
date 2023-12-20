@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="font-Poppins">
       <Navbar />
-      <div className=" lg:px-28 px-5">
+      <div className=" xl:px-28 px-5">
         <Hero />
         <AboutSection />
         <Skills />

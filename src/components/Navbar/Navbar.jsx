@@ -34,7 +34,7 @@ function Navbar() {
   return (
     <div id="nav-menu">
       <div className="shadow-sm w-full top-0 left-0 font-Poppins fixed z-50 ">
-        <div className="md:flex items-center justify-between bg-white py-3.5 md:px-28 px-7">
+        <div className="md:flex items-center justify-between bg-white py-3.5 lg:px-28 px-7">
           <div className=" font-semibold text-xl cursor-pointer flex items-center text-gray-800">
             <span className="flex items-center font-Poppins">./narayan</span>
           </div>
