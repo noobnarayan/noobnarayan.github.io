@@ -49,7 +49,7 @@ function Projects() {
                 iconClass="fa-solid fa-arrow-up-right-from-square text-gray-500"
                 onClick={handleLiveClick}
                 testClass={"project-deployed-link"}
-                link={"https://obscene-clam-8417.vercel.app/"}
+                link={"https://wood-fans.noobnarayan.in/"}
               />
             </div>
           </div>
